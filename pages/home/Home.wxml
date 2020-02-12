@@ -9,3 +9,6 @@
 <view>NCP感染人数：{{num}}</view>
 <button bindtap="addButton">+</button>
 <button bindtap="cantenBotton">-</button>
+
+
+<xxx/>
