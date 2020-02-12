@@ -1,4 +1,11 @@
 <!--pages/home/Home.wxml-->
-<text>pages/home/Home.wxml</text>
-<text>测试</text>
- <button size="mini">提交</button>
+<view>1. 数据绑定</view>
+<view>{{name}}</view>
+
+<view>2. 数组循环生成列表</view>
+<view wx:for='{{studuts}}'>id==={{item.id}},型号==={{item.name}}</view>
+
+<view>3. 点击事件</view>
+<view>NCP感染人数：{{num}}</view>
+<button bindtap="addButton">+</button>
+<button bindtap="cantenBotton">-</button>
